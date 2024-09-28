@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:14px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 250px;
+}
+
+.texto{
+    color: #FFF;
+}
+
+.button{
+    max-width:100%;
+    height: 40px;
+    background-color: rgb(211, 203, 192);
+    padding: 10px 8px;
+    transition: all 1s;   
+
+}
+.button:hover{
+    transform: scale(1.1);
+}
